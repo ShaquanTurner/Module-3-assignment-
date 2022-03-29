@@ -1,4 +1,0 @@
-
-	Payment Amount is : $2500.00
-	Payment Amount is : $2500.00n	 First name is Joe 
-	Last name is robinson
