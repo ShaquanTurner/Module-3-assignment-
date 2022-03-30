@@ -5,11 +5,12 @@ public class  Employee implements Payable {
     protected  String lastName;
     protected String socialSecurityNumber;
 
-    public String setFirstName() {
+    public void setFirstName(String firstName) {
         firstName="Joe";
         this.firstName = firstName;
 
-        return null;
+
+
     }
 
     public String getFirstName() {return this.firstName;}
@@ -20,12 +21,12 @@ public class  Employee implements Payable {
     }
 
     public String getLastName() {
-        return lastName;
+        return this.lastName;
     }
+
 
     @Override
     public double getPaymentAmount() {
-
-        return 0;
+        return 5000;
     }
 }
